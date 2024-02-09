@@ -14,7 +14,8 @@ jobs:
       - name: use-apt
         run: |
           sudo apt update
-          sudo apt install gcc g++ git gh
+          
+          sudo apt upgrade
   build:
 
     runs-on: ubuntu-latest
